@@ -1,14 +1,14 @@
 import com.sun.javafx.sg.prism.web.NGWebView;
 
 /**
- * Õ∞≈≈–Ú
+ * ºÚµ•Õ∞≈≈–Ú
  * @author Administrator
  *
  */
-public class BucketSort {
+public class SimpleBucketSort {
 	
 	public static void main(String[] args) {
-		BucketSort bucketSort = new BucketSort();
+		SimpleBucketSort bucketSort = new SimpleBucketSort();
 		int[] params = {1, 8, 6, 5, 6, 5, 5};
 		bucketSort.print(bucketSort.sort(params, 9));;
 		
