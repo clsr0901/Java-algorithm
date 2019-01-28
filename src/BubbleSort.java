@@ -9,7 +9,7 @@
 public class BubbleSort {
 	
 	public static void main(String[] args) {
-		PrintUtil.print(new BubbleSort().sort(PrintUtil.ARRAY));
+		PrintUtil.printArray(new BubbleSort().sort(PrintUtil.ARRAY));
 	}
 
 	
